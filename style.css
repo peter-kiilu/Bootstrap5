@@ -1,0 +1,44 @@
+body {
+    background-color: #f0f0f5; /* Light background */
+}
+
+.left-box {
+    background-color: rgb(4, 4, 201); /* Blue left panel */
+}
+
+.right-box h2 {
+    font-weight: bold;
+    color: #333;
+}
+
+.right-box p {
+    color: #666;
+}
+
+input::placeholder {
+    color: #aaa;
+}
+
+.btn-primary {
+    background-color: #1100ff;
+    border: none;
+}
+
+.btn-light {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+}
+
+.text-decoration-none:hover {
+    text-decoration: underline;
+}
+
+.box-area {
+    max-width: 800px;
+}
+
+@media (max-width: 768px) {
+    .box-area {
+        width: 100%;
+    }
+}
